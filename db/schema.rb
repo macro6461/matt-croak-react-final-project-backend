@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20171020191351) do
     t.string "state"
     t.string "picture_url"
     t.string "bio"
+    t.string "age"
     t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
