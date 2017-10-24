@@ -6,6 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+
+match1 = Match.create(matcher_id: "1", matchee_id: "4")
+
+match2 = Match.create(matcher_id: "4", matchee_id: "1")
+
 user1 = User.create(name: "Matt", gender: "male", city: "Brooklyn", state: "New York", picture_url: "https://images-na.ssl-images-amazon.com/images/M/MV5BOTI3ODk1MTMyNV5BMl5BanBnXkFtZTcwNDEyNTE2Mg@@._V1_UY317_CR6,0,214,317_AL_.jpg", bio: "Do people still use this lol jk",age: "23", password: "bandit123")
 
 user2 = User.create(name: "Brad", gender: "male", city: "Brooklyn", state: "New York", picture_url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bradley_Cooper_%283699322472%29_%28cropped%29.jpg", bio: "Let's smash. And I'm not talking Mario ;)", age: "40", password: "dude712")
